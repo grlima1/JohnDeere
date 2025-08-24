@@ -1,0 +1,145 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Post 1",
+      "content": "This is the content of Post 1.",
+      "author": {
+        "id": 101,
+        "name": "Author One",
+        "email": "author1@example.com",
+        "profile": {
+          "age": 30,
+          "bio": "A passionate writer and coder.",
+          "socialLinks": {
+            "twitter": "@livingcode",
+            "github": "https://github.com/livingcode"
+          }
+        }
+      },
+      "tags": ["introduction", "welcome"],
+      "createdAt": "2024-01-01T10:00:00Z",
+      "updatedAt": "2024-01-02T12:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "Post 2",
+      "content": "This is the content of Post 2.",
+      "author": {
+        "id": 102,
+        "name": "Author Two",
+        "email": "author2@example.com",
+        "profile": {
+          "age": 30,
+          "bio": "Lets do it.",
+          "socialLinks": {
+            "twitter": "@letsdoit",
+            "github": "https://github.com/letsdoit"
+          }
+        }
+      },
+      "tags": ["update", "news"],
+      "createdAt": "2024-01-05T11:00:00Z",
+      "updatedAt": "2024-01-06T13:00:00Z"
+    },
+    {
+      "id": "3",
+      "title": "Post 3",
+      "content": "This is the content of Post 3.",
+      "author": {
+        "id": 103,
+        "name": "Author Three",
+        "email": "author3@example.com",
+        "profile": {
+          "age": 30,
+          "bio": "Uncle Bob fan boy",
+          "socialLinks": {
+            "github": "https://github.com/unclebobisthebest"
+          }
+        }
+      },
+      "tags": ["introduction", "tutorial", "guide"],
+      "createdAt": "2024-01-10T14:00:00Z",
+      "updatedAt": "2024-01-11T15:00:00Z"
+    },
+    {
+      "id": "4",
+      "title": "Post 4",
+      "content": "This is the content of Post 4.",
+      "author": {
+        "id": 101,
+        "name": "Author One",
+        "email": "author1@example.com",
+        "profile": {
+          "age": 30,
+          "bio": "A passionate writer and coder.",
+          "socialLinks": {
+            "twitter": "@livingcode",
+            "github": "https://github.com/livingcode"
+          }
+        }
+      },
+      "tags": ["introduction", "welcome"],
+      "createdAt": "2024-01-01T10:00:00Z",
+      "updatedAt": "2024-01-02T12:00:00Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "This is a comment on Post 1.",
+      "postId": 1,
+      "author": {
+        "id": 101,
+        "name": "Author One",
+        "email": "author1@example.com",
+        "profile": {
+          "age": 30,
+          "bio": "A passionate writer and coder.",
+          "socialLinks": {
+            "twitter": "@livingcode",
+            "github": "https://github.com/livingcode"
+          }
+        }
+      },
+      "createdAt": "2024-01-03T09:00:00Z"
+    },
+    {
+      "id": "2",
+      "body": "This is another comment on Post 1.",
+      "postId": 1,
+      "author": {
+        "id": 102,
+        "name": "Author Two",
+        "email": "author2@example.com",
+        "profile": {
+          "age": 30,
+          "bio": "Lets do it.",
+          "socialLinks": {
+            "twitter": "@letsdoit",
+            "github": "https://github.com/letsdoit"
+          }
+        }
+      },
+      "createdAt": "2024-01-04T10:30:00Z"
+    },
+    {
+      "id": "3",
+      "body": "Commenting on Post 2.",
+      "postId": 2,
+      "author": {
+        "id": 203,
+        "name": "Commenter Three",
+        "email": "commenter3@example.com",
+        "profile": {
+          "age": 14,
+          "bio": "I'm a promoter of this",
+          "socialLinks": {
+            "twitter": "@promoter"
+          }
+        }
+      },
+      "createdAt": "2024-01-07T11:15:00Z"
+    }
+  ]
+}
